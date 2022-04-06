@@ -1,0 +1,91 @@
+@import "vars.scss";
+@import "fonts.scss";
+@import "vendor/breakpoint.scss";
+@import 'vendor/reset.css';
+
+html {
+  overflow-y: overlay;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: $black;
+  background-color: #FDFDFD;
+}
+
+.page {
+  overflow: hidden;
+}
+
+.display {
+  font-size: 49px;
+  line-height: 74px;
+}
+
+h1.heading {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+}
+
+h2.heading {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+h3.heading {
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 32px;
+}
+
+h4.heading {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+h5.heading {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 160%;
+}
+
+h6.heading {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 164%;
+}
+
+.label {
+  font-size: 16px;
+  line-height: 24px;
+  color: $grey-1;
+
+  &.md {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+
+.paragraph {
+  font-size: 14px;
+  line-height: 186%;
+}
+
+
+.card {
+  padding: 30px;
+  background-color: #fff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.06);
+  border-radius: 24px;
+
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
